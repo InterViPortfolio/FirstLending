@@ -8,7 +8,6 @@
 
 * Bootstrap;
 * JQuery;
-* [JQuery.scrollTo](https://github.com/flesler/jquery.scrollTo);
 * [JQueryRotate](https://github.com/wilq32/jqueryrotate);
 * [Device](https://github.com/matthewhudson/device.js);
 * [JQuery.inview](https://github.com/protonet/jquery.inview);
