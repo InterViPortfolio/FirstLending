@@ -1,5 +1,5 @@
 @media handheld, projection, print, all and (min-height: 1100px) {
-    #header {background-image: url(/images/header-mob.jpg) !important;}
+    #header {background: url(/images/header-mob.jpg) no-repeat #756a58; background-size: cover; background-position: center;}
     .mid {float: none !important; clear: both; display: block; margin: 20px auto !important;}
     .cont-img, #pos1, #pos2, #pos3, #pos4, #pos5, #pos6 {opacity: 1 !important;}
     #contacts {left: 10px !important;}

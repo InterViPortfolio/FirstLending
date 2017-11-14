@@ -10,7 +10,7 @@
 * JQuery;
 * [JQueryRotate](https://github.com/wilq32/jqueryrotate);
 * [Device](https://github.com/matthewhudson/device.js);
-* [JQuery.inview](https://github.com/protonet/jquery.inview);
+* [JQuery.inview](https://github.com/protonet/jquery.inview).
 
 Источник картинок: https://unsplash.com/
 

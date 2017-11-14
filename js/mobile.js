@@ -1,5 +1,5 @@
 function displayAll() {
-    $('#header').css('background-image', 'url(/images/header-mob.jpg)');
+    $('#header').css('background', 'url(/images/header-mob.jpg) no-repeat #756a58; background-size: cover; background-position: center;');
     $('.mid').css('float', NaN);
     $('.mid').css('clear', 'both');
     $('.mid').css('display', 'block');
