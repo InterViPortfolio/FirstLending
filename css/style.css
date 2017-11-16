@@ -9,7 +9,7 @@ a, a:hover, a:active, a:visited {outline: none;}
 #container {width: 100%;}
 #container-child {width: 1000px; margin: 0 auto;}
 .center, .center b, .center input, .center img, #top-img {margin: auto; text-align: center;}
-#header {background: url(/images/header.jpg) no-repeat #756a58; text-shadow: 0 3px 6px black; background-size: cover; background-position: center; height: 800px;}
+#header {background: url(/lending/images/header.jpg) no-repeat #756a58; text-shadow: 0 3px 6px black; background-size: cover; background-position: center; height: 800px;}
 #header, footer {text-align: center;}
 #header-text {position: relative; top: 120px; margin: 0 auto; color: white; text-shadow: 0 4px 6px black; height: 60px;}
 #header-bg {width: 100%; height: 800px; position: absolute; top: 0; left: 0;}
@@ -19,10 +19,10 @@ a, a:hover, a:active, a:visited {outline: none;}
 #slides {width: 600px; height: 400px; overflow: hidden; position: relative;}
 #slides-ul {position: absolute; left: 0; top: 0; height: 400px; margin: 0; padding: 0;}
 .slide {width: 600px; height: 400px; float: left; list-style: none; margin: 0; padding: 0;}
-.sl1 {background: url(/images/slide1.jpg) no-repeat; background-size: cover;}
-.sl2 {background: url(/images/slide2.jpg) no-repeat; background-size: cover;}
-.sl3 {background: url(/images/slide3.jpg) no-repeat; background-size: cover;}
-.sl4 {background: url(/images/slide4.jpg) no-repeat; background-size: cover;}
+.sl1 {background: url(/lending/images/slide1.jpg) no-repeat; background-size: cover;}
+.sl2 {background: url(/lending/images/slide2.jpg) no-repeat; background-size: cover;}
+.sl3 {background: url(/lending/images/slide3.jpg) no-repeat; background-size: cover;}
+.sl4 {background: url(/lending/images/slide4.jpg) no-repeat; background-size: cover;}
 #prev-slide {position: relative; left: -170px; bottom: 264px;}
 #next-slide {position: relative; right: -510px; bottom: 264px;}
 #left-arr:hover, #right-arr:hover {border-radius: 63px; background: #E8CACA;}

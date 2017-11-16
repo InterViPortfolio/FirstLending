@@ -76,7 +76,7 @@ var slwidth = 600;
 var sltimer;
 var slms = 4000;
 $(function() {
-    $('#slides-ul').width($('#slides-ul').children().size() * slwidth);
+    $('#slides-ul').width($('#slides-ul').children().length * slwidth);
     sltimer = setInterval(nextSlide, slms);
     $('#slides').hover(function() {
         clearInterval(sltimer);
@@ -97,13 +97,13 @@ $(function() {
 
 function nextSlide() {
     var slide = parseInt($('#slides-ul').data('current')) + 1;
-    if (slide >= $('#slides-ul').children().size()) slide = 0;
+    if (slide >= $('#slides-ul').children().length) slide = 0;
     $('#slides-ul').animate({left: -slide * slwidth}, 500).data('current', slide);
 }
 
 function prevSlide() {
     var slide = parseInt($('#slides-ul').data('current')) - 1;
-    if (slide < 0) slide = $('#slides-ul').children().size() - 1;
+    if (slide < 0) slide = $('#slides-ul').children().length - 1;
     $('#slides-ul').animate({left: -slide * slwidth}, 500).data('current', slide);
 }
 
